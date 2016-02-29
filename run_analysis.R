@@ -90,6 +90,6 @@ tidyDS = merge(tidyDS, activityLabels, by = "activityId", all.x = TRUE);
 
 
 # Export the tidyDS 
-write.table(tidyDS, "./tidyData.txt", row.names = TRUE);
+write.table(tidyDS, "./tidyData.txt", row.names = FALSE);
 
 
